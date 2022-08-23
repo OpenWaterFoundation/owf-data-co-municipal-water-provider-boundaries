@@ -1,0 +1,25 @@
+{
+  "title": "Colorado Municipal Water Provider Boundaries",
+  "description": "Colorado municipal water provider boundaries.",
+  "identifier": "owf-data-co-municipal-water-provider-boundaries",
+  "landingPage": "https://data.openwaterfoundation.org/state/co/dola/municipal-water-provider-boundaries/",
+  "issued": "2022-08-23",
+  "keyword": [
+    "polygon",
+    "municipal water provider boundaries",
+    "water provider"
+  ],
+  "publisher": {
+    "name": "Open Water Foundation",
+    "mbox": "info@openwaterfoundation.org"
+  },
+  "distribution": [
+    {
+      "accessURL": "",
+      "byteSize": null,
+      "description": "Resource locator",
+      "format": "application/geo+json",
+      "title": "Colorado Municipal Water Provider Boundaries"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <name>ACWWA</name>
+    <description/>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-2356-nodesc-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>2.356</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-4186F0-2356-nodesc-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>3.534</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-4186F0-2356-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-2356-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-2356-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Schema id="ACWWA_Service_Area.schema">
+      <SimpleField name="LGID" type="string"/>
+      <SimpleField name="SOURCE" type="string"/>
+      <SimpleField name="LGNAME" type="string"/>
+      <SimpleField name="LGTYPEID" type="string"/>
+      <SimpleField name="LGSTATUSID" type="string"/>
+      <SimpleField name="ABBREV_NAM" type="string"/>
+      <SimpleField name="MAIL_ADDRE" type="string"/>
+      <SimpleField name="ALT_ADDRES" type="string"/>
+      <SimpleField name="MAIL_CITY" type="string"/>
+      <SimpleField name="MAIL_STATE" type="string"/>
+      <SimpleField name="MAIL_ZIP" type="string"/>
+      <SimpleField name="URL" type="string"/>
+      <SimpleField name="PREV_NAME" type="string"/>
+    </Schema>
+    <Folder>
+      <name>Main Office</name>
+      <Placemark>
+        <name>ACWWA</name>
+        <description><![CDATA[www.acwwa.com<br>(303) 790-4830<br>13031 E Caley Ave<br>Centennial, CO 80111]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -104.8380017,39.6015302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>ACWWA Service Area</name>
+      <Placemark>
+        <name>Boundary</name>
+        <styleUrl>#line-4186F0-2356-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -104.807763,39.601634,0
+            -104.807838,39.595152,0
+            -104.80694,39.59514,0
+            -104.806897,39.598378,0
+            -104.805283,39.598354,0
+            -104.804521,39.598544,0
+            -104.802838,39.595206,0
+            -104.803189,39.594763,0
+            -104.808995,39.594743,0
+            -104.809044,39.591913,0
+            -104.800985,39.591857,0
+            -104.802649,39.59481,0
+            -104.802104,39.595054,0
+            -104.749614,39.594845,0
+            -104.74976,39.587795,0
+            -104.745103,39.587644,0
+            -104.745229,39.580448,0
+            -104.793201,39.580523,0
+            -104.792945,39.577866,0
+            -104.794775,39.577877,0
+            -104.794741,39.575753,0
+            -104.79711,39.575767,0
+            -104.797089,39.577891,0
+            -104.801717,39.577919,0
+            -104.801855,39.569465,0
+            -104.78781,39.56938,0
+            -104.785289,39.565866,0
+            -104.821712,39.566027,0
+            -104.821719,39.559599,0
+            -104.830303,39.559677,0
+            -104.830295,39.558213,0
+            -104.839436,39.558172,0
+            -104.839651,39.564145,0
+            -104.846451,39.564261,0
+            -104.846412,39.565956,0
+            -104.854983,39.566278,0
+            -104.855168,39.580568,0
+            -104.85424,39.580544,0
+            -104.854122,39.587755,0
+            -104.85727,39.587897,0
+            -104.857447,39.595133,0
+            -104.863309,39.595154,0
+            -104.863339,39.587746,0
+            -104.857485,39.587536,0
+            -104.857463,39.584636,0
+            -104.858658,39.584347,0
+            -104.858662,39.583434,0
+            -104.859558,39.581942,0
+            -104.863071,39.581969,0
+            -104.864361,39.58251,0
+            -104.866841,39.582487,0
+            -104.866697,39.598779,0
+            -104.864502,39.598748,0
+            -104.862092,39.598422,0
+            -104.862059,39.602272,0
+            -104.84808,39.602323,0
+            -104.848071,39.604147,0
+            -104.846891,39.604143,0
+            -104.846112,39.604741,0
+            -104.840746,39.604142,0
+            -104.836217,39.604149,0
+            -104.836198,39.605945,0
+            -104.83388,39.60594,0
+            -104.833902,39.604142,0
+            -104.831685,39.604126,0
+            -104.831581,39.606002,0
+            -104.824573,39.605902,0
+            -104.824602,39.602242,0
+            -104.82688,39.602251,0
+            -104.827864,39.604044,0
+            -104.829173,39.604051,0
+            -104.829328,39.595228,0
+            -104.823222,39.595193,0
+            -104.82321,39.596475,0
+            -104.822663,39.596712,0
+            -104.821315,39.595139,0
+            -104.815419,39.595133,0
+            -104.815409,39.588741,0
+            -104.814633,39.588708,0
+            -104.814636,39.588351,0
+            -104.813251,39.588328,0
+            -104.813257,39.587642,0
+            -104.810818,39.587613,0
+            -104.810943,39.593281,0
+            -104.81196,39.593287,0
+            -104.81185,39.595074,0
+            -104.810687,39.595109,0
+            -104.810734,39.598692,0
+            -104.815461,39.598705,0
+            -104.815484,39.596182,0
+            -104.821654,39.596224,0
+            -104.822264,39.597402,0
+            -104.821884,39.598487,0
+            -104.823956,39.6002,0
+            -104.824866,39.601764,0
+            -104.818417,39.601775,0
+            -104.818414,39.602173,0
+            -104.820765,39.602206,0
+            -104.820684,39.609519,0
+            -104.81036,39.609431,0
+            -104.806588,39.602088,0
+            -104.810922,39.602128,0
+            -104.81092,39.602438,0
+            -104.81129,39.602437,0
+            -104.811289,39.602166,0
+            -104.811228,39.602166,0
+            -104.811235,39.601469,0
+            -104.811221,39.601333,0
+            -104.810909,39.601128,0
+            -104.810386,39.601522,0
+            -104.809893,39.601522,0
+            -104.809893,39.601632,0
+            -104.8077806,39.6016331,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
